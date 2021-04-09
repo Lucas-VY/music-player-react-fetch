@@ -1,0 +1,20 @@
+.fas {
+  color: black;
+}
+
+.audioControl{
+  display: none;
+}
+
+#list-btn{
+  color: white;
+  border-radius: 5px;
+}
+
+li:hover {
+background-color: green;
+}
+
+.btn {
+border-radius: 3px solid black;
+}
