@@ -53,7 +53,7 @@ function App() {
             {
               state.length > 0 && state.map((value, indexList) => {
                 return (
-                <button key={value.id} id="list-btn" className={"btn btn-lg text-left bg-dark shadow-1-strong" + (activSong === indexList)} onClick={() => setSingleSong(value.url, indexList)} >{value.name} </button>  
+                <button key={indexList} id="list-btn" className={"btn btn-lg text-left bg-dark shadow-1-strong" + (activSong === indexList)} onClick={() => setSingleSong(value.url, indexList)} >{value.name} </button>  
               )})
             }
           </div>
